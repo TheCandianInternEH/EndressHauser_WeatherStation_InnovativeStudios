@@ -1,7 +1,6 @@
 custom.weatherStart()
-while (input.buttonIsPressed(Button.A)) {
-    SUN.SunOn()
-}
 basic.forever(function () {
-	
+    while (input.buttonIsPressed(Button.A)) {
+        serial.writeLine("BLINK")
+    }
 })
