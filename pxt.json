@@ -10,8 +10,7 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "weather_start.ts",
-        "sun_on.ts"
+        "weather_start.ts"
     ],
     "testFiles": [
         "test.ts"
