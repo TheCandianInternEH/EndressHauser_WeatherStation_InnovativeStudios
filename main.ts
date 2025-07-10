@@ -1,2 +1,5 @@
 WEATHER.weatherStart()
-WEATHER.SunOn()
+basic.forever(function () {
+    WEATHER.SunOn()
+    basic.pause(1000)
+})

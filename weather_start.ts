@@ -18,12 +18,21 @@ namespace WEATHER {
     }
 
     /**
-     * Starts sun lamp
+     * Turns sun lamp on
      */
     //% block = "SUN ON"
     //% color=#FFD700 icon="☀"
     export function SunOn(): void {
-        serial.writeLine("BLINK")
+        serial.writeLine("SunOn")
+    }
+
+    /**
+     * Turns sun lamp off
+     */
+    //% block = "SUN OFF"
+    //% color=#FFD700 icon="☀"
+    export function SunOff(): void {
+        serial.writeLine("SunOff")
     }
 }
 
