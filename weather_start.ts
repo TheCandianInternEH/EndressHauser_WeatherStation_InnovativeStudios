@@ -4,7 +4,7 @@
 //% weight=100 color=#fc9003 icon="☁"
 
 
-namespace custom {
+namespace WEATHER {
     /**
      * Starts weather serial communication
      */
