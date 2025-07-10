@@ -4,13 +4,13 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*",
-        "microturtle": "github:microsoft/pxt-microturtle#v0.0.10"
+        "microphone": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "weather_start.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -22,5 +22,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
