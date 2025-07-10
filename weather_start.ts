@@ -1,6 +1,7 @@
-
+/**
+ * WEATHER BLOCKS
+ */
 //% weight=100 color=#fc9003 icon="☁"
-//% block="Weather Blocks"
 
 
 namespace custom {
@@ -15,6 +16,17 @@ namespace custom {
             BaudRate.BaudRate9600
         )
     }
-}
 
+    /**
+     * Starts sun lamp
+     */
+    //% block = "SUN ON"
+    //% color=#FFD700 icon="☀"
+    export function SunOn(): void {
+        basic.forever(function () {
+            serial.writeLine("BLINK")
+        })
+    }
+
+}
 
