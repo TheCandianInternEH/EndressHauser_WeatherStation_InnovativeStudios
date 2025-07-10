@@ -7,12 +7,24 @@ namespace custom {
     /**
      * Starts weather serial communication
      */
-    //% block="weather start"
+    //% block="WEATHER START"
     export function weatherStart(): void {
         serial.redirect(
             SerialPin.P13,
             SerialPin.P14,
             BaudRate.BaudRate9600
         )
+    }
+}
+
+namespace custom {
+    /**
+     * Starts Sun Lamp
+     */
+    //% block = "SUN ON"
+    export function SunOn(): void {
+        basic.forever(function () {
+            serial.writeLine("Blink")
+        })
     }
 }
