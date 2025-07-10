@@ -1,4 +1,4 @@
-custom.weatherStart()
+wustom.weatherStart()
 while (input.buttonIsPressed(Button.A)) {
-    custom.SunOn()
+    wustom.SunOn()
 }
