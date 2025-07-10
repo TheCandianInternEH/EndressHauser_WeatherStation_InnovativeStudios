@@ -1,13 +1,12 @@
-//% weight=90 color=#FFD700 icon="☀"
-//% block="Sun On"
-namespace custom {
+namespace SUN {
     /**
-     * Starts a loop that sends "BLINK" continuously over serial
+     * Starts Sun Lamp
      */
-    export function sunOn(): void {
+    //% block = "SUN ON"
+    //% weight=90 color=#FFD700 icon="☀"
+    export function SunOn(): void {
         basic.forever(function () {
-            serial.writeLine("BLINK")
+            serial.writeLine("Blink")
         })
     }
 }
-
