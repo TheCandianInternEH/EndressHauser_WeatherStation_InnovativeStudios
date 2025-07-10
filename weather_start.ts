@@ -23,9 +23,7 @@ namespace WEATHER {
     //% block = "SUN ON"
     //% color=#FFD700 icon="☀"
     export function SunOn(): void {
-        basic.forever(function () {
-            serial.writeLine("BLINK")
-        })
+        serial.writeLine("BLINK")
     }
 }
 

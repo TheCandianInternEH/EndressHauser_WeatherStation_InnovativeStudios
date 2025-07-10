@@ -1,2 +1,6 @@
 WEATHER.weatherStart()
-WEATHER.SunOn()
+basic.forever(function () {
+    while (input.buttonIsPressed(Button.A)) {
+        WEATHER.SunOn()
+    }
+})
