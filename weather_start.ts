@@ -52,5 +52,23 @@ namespace WEATHER {
     export function RainOff(): void {
         serial.writeLine("RainOff")
     }
+
+    /**
+     * Turn fan on
+     */
+    //% block = "WIND ON"
+    //% colour = #A9A9A9 icon="༄"
+    export function WindOn(): void {
+        serial.writeLine("WindOn")
+    }
+
+    /**
+     * Turn fan on
+     */
+    //% block = "WIND ON"
+    //% colour = #A9A9A9 icon="༄"
+    export function WindOff(): void {
+        serial.writeLine("WindOff")
+    }
 }
 
