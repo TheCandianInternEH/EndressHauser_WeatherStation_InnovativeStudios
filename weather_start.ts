@@ -17,6 +17,8 @@ namespace custom {
     }
 }
 
+//% weight=90 color=#FFD700 icon="☀"
+//% block="Sun On"
 namespace custom {
     /**
      * Starts Sun Lamp
